@@ -72,14 +72,11 @@ target_link_libraries(common
     openssl
     valgrind
     threads
-<<<<<<< HEAD
     lualib
     jemalloc
   PRIVATE
-    process)
-=======
+    process
     jemalloc)
->>>>>>> e5bb22a388a932ca268e0fafb0edf592b1fe6990
 
 add_dependencies(common revision_data.h)
 
